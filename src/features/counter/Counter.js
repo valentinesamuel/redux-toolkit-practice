@@ -10,7 +10,7 @@ import { useState } from "react";
 
 const Counter = () => {
   const [incrementAmount, setIncrementAmount] = useState(0);
-  const [decrementAmount, setDecrementAmount] = useState(0);
+  // const [decrementAmount, setDecrementAmount] = useState(0);
   const addValue = Number(incrementAmount) || 0;
   const resetAll = () => {
     setIncrementAmount(0);
